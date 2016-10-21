@@ -1,0 +1,7 @@
+package TestSession;
+
+message TestMsg
+{
+   optional uint32 msgid = 1[default = 1];
+   optional string user_name = 2;
+}
